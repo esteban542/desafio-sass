@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #dbcd05;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header nav .menu {
+  background-color: #ee0505;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  header nav .menu li {
+    padding: 10px;
+    margin: 10px; }
+    header nav .menu li a {
+      color: #3706e6;
+      text-decoration: none;
+      padding: 20px; }
+      header nav .menu li a:hover {
+        color: #dbcd05; }

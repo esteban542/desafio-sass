@@ -1,0 +1,27 @@
+header{
+    nav{
+        .menu{
+            background-color: $bg_claro;
+            list-style-type: none;
+            padding: 0;
+            margin: 20px auto;
+            width:95%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            li{
+                padding: 10px;
+                margin: 10px;
+                a{
+                    color: $bg_azul;
+                    text-decoration: none;
+                    padding: 20px;
+                    &:hover{
+                        color: $bg_amarillo;
+                    }
+                }
+            }
+        }
+    }
+}
